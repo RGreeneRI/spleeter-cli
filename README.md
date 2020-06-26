@@ -1,6 +1,9 @@
 # spleeter-cli
 An easy-to-use bash script to utilize the deezer/spleeter docker image.
 
+# Requirements
+Docker installed and running, and permission to run Docker commands.  On first run, the Deezer/spleeter Docker image will be downloaded.  Each subsequent run will use the already downloaded image.  Each first run of a particular model will download said model, and each subsiquent run will use already downloaded model.
+
 # Usage
 Valid models are: `2stems`, `4stems`, `5stems`, `2stems-16kHz`, `4stems-16kHz`, `5stems-16kHz`
 
